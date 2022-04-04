@@ -1,6 +1,6 @@
 ﻿namespace Learner_Form
 {
-    partial class Form1
+    partial class LearnerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,48 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClickThis = new System.Windows.Forms.Button();
-            this.lblHelloWorld = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.SuspendLayout();
             // 
-            // btnClickThis
+            // tableLayoutPanel1
             // 
-            this.btnClickThis.Location = new System.Drawing.Point(123, 94);
-            this.btnClickThis.Name = "btnClickThis";
-            this.btnClickThis.Size = new System.Drawing.Size(75, 23);
-            this.btnClickThis.TabIndex = 0;
-            this.btnClickThis.Text = "Click This";
-            this.btnClickThis.UseVisualStyleBackColor = true;
-            this.btnClickThis.Click += new System.EventHandler(this.btnClickThis_Click);
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85F));
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1115, 621);
+            this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // lblHelloWorld
-            // 
-            this.lblHelloWorld.AutoSize = true;
-            this.lblHelloWorld.Location = new System.Drawing.Point(152, 168);
-            this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(35, 13);
-            this.lblHelloWorld.TabIndex = 1;
-            this.lblHelloWorld.Text = "label1";
-            this.lblHelloWorld.Click += new System.EventHandler(this.lblHelloWorld_Click);
-            // 
-            // Form1
+            // LearnerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblHelloWorld);
-            this.Controls.Add(this.btnClickThis);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1115, 621);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Name = "LearnerForm";
+            this.Text = "Learner Form";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnClickThis;
-        private System.Windows.Forms.Label lblHelloWorld;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
 

@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Learner_Form
 {
-    public partial class Form1 : Form
+    public partial class LearnerForm : Form
     {
-        public Form1()
+        public LearnerForm()
         {
             InitializeComponent();
         }
 
-        private void btnClickThis_Click(object sender, EventArgs e)
-        {
-            lblHelloWorld.Text = "Hello World!";
-        }
-
-        private void lblHelloWorld_Click(object sender, EventArgs e)
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

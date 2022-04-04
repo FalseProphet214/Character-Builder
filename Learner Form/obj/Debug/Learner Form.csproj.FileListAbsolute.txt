@@ -3,9 +3,9 @@ C:\Users\corbi\source\repos\Character-Builder\Learner Form\bin\Debug\Learner For
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\bin\Debug\Learner Form.pdb
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner Form.csproj.AssemblyReference.cache
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner Form.csproj.SuggestedBindingRedirects.cache
-C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner_Form.Form1.resources
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner_Form.Properties.Resources.resources
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner Form.csproj.GenerateResource.cache
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner Form.csproj.CoreCompileInputs.cache
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner Form.exe
 C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner Form.pdb
+C:\Users\corbi\source\repos\Character-Builder\Learner Form\obj\Debug\Learner_Form.LearnerForm.resources
